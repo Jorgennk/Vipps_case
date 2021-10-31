@@ -1,4 +1,8 @@
 # Vipps_case
+To clone the project
+```
+git clone https://github.com/Jorgennk/Vipps_case.git
+```
 
 For react setup check front-end README.md
 
