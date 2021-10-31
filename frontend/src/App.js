@@ -13,7 +13,7 @@ const App = () => {
   const fetchData = (wikiquery) => {
     setLoading(true)
     axios
-    .get(`http://127.0.0.1:5000/api/${encodeURIComponent(wikiquery)}`)
+    .get(`${process.env.REACT_APP_PYTHON_API}/api/${encodeURIComponent(wikiquery)}`)
     .then(res => {
       console.log(res.data)
       setContent(res.data.result)
